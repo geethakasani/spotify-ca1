@@ -239,22 +239,22 @@
   box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .App__section-grid-item:nth-of-type(1) .featured-image {
-  background-image: url("image9.png");
+  background-image: url("assets/image9.png");
 }
 .App__section-grid-item:nth-of-type(2) .featured-image {
-  background-image: url("image8.png");
+  background-image: url("assets/image8.png");
 }
 .App__section-grid-item:nth-of-type(3) .featured-image {
-  background-image: url("image7.png");
+  background-image: url("assets/image7.png");
 }
 .App__section-grid-item:nth-of-type(4) .featured-image {
-  background-image: url("image6.png");
+  background-image: url("assets/image6.png");
 }
 .App__section-grid-item:nth-of-type(5) .featured-image {
-  background-image: url("image5.png");
+  background-image: url("assets/image5.png");
 }
 .App__section-grid-item:nth-of-type(6) .featured-image {
-    background-image: url("image10.png");
+    background-image: url("assets/image10.png");
   }
 
 .App__section-grid-item h3 {
