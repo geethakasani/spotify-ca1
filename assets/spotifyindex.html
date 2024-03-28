@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spotify Clone Project</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="spotify.css" />
+  </head>
+  <body>
+    <div class="App">
+      <div class="App__top-bar">
+        <div class="App__header">
+          <div class="App__song-navigation">
+            <div class="App__song-navigation-prev">
+              <svg
+                role="img"
+                focusable="false"
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+              >
+                <polyline
+                  points="16 4 7 12 16 20"
+                  fill="none"
+                  stroke="#fff"
+                ></polyline>
+              </svg>
+            </div>
+            <div class="App__song-navigation-next">
+              <svg
+                role="img"
+                focusable="false"
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+              >
+                <polyline
+                  points="8 4 17 12 8 20"
+                  fill="none"
+                  stroke="#fff"
+                ></polyline>
+              </svg>
+            </div>
+          </div>
+          <button class="App__user">
+            <div class="App__figure">
+              <img
+                src="image1.png"
+                style="width: 20px; height: auto; border: 1px solid #ccc"
+              />
+            </div>
+            <span class="App__username">Yourname</span>
+          </button>
+        </div>
+      </div>
+      <div class="App__nav-bar">
+        <div class="App__logo">
+          <img src="Spotify logo.png" alt="App__logo" width="60%" />
+        </div>
+        <div class="App__categories-nav">
+          <div class="App__category-item App__category-item--selected">
+            <div class="icon">
+              <img src="Home.png" alt="Home" width="50%" />
+            </div>
+            <span>Home</span>
+          </div>
+          <div class="App__category-item">
+            <div class="icon">
+              <img src="Search.png" alt="Home" width="50%" />
+            </div>
+            <span>Search</span>
+          </div>
+          <div class="App__category-item">
+            <div class="icon">
+              <img src="Your library.png" alt="Search" width="50%" />
+            </div>
+            <span>Your Library</span>
+          </div>
+        </div>
+        <div class="App__playlists-nav">
+          <div class="App__category-item">
+            <div class="icon">
+              <img src="Create.png" alt="library" width="60%" />
+            </div>
+            <span>Create Playlist</span>
+          </div>
+          <div class="App__category-item">
+            <div class="icon">
+              <img src="Liked.png" alt="Create" width="60%" />
+            </div>
+            <span>Liked Songs</span>
+          </div>
+          <div class="App__category-item">
+            <div class="icon">
+              <img src="grommet-icons_install-option.png" alt="Create" width="60%" />
+            </div>
+            <span>Your Eposides</span>
+          </div>
+          <div class="App__category-item">
+            <div class="icon">
+
+            </div>
+            <span>FAV</span>
+          </div>
+          
+        </div>
+      </div>
+      <div class="App__now-playing-bar">
+        <div class="function">
+          <div class="music">
+            <img src="image11.png" alt="" />
+            <div class="details">
+              <div class="name">Dreaming On</div>
+              <div class="artist">NEFFEX</div>
+            </div>
+            <div class="love">
+              <img
+                src="bx_bxs-heart.png"
+                alt="love"
+              />
+            </div>
+          </div>
+          <div class="playback">
+            <div class="options">
+              <img
+                src="Music Player Options.png"
+                alt="options"
+                height="30%"
+              />
+            </div>
+            <div class="lower">
+              <div class="text">0:00</div>
+              <div class="line"></div>
+              <div class="text">3:46</div>
+            </div>
+          </div>
+          <div class="control">
+            <div class="images">
+              <img src="Right options.png" alt="mic" />
+
+              <div class="line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="App__main-view">
+        <div class="App__top-gradient"></div>
+        <div class="App__header-placeholder"></div>
+        <section class="App__section App__quick-links">
+          <h1>Good morning</h1>
+          <div class="App__quick-links-container">
+            <div class="App__quick-link">
+              <div class="App__quick-link-featured-img">❤️</div>
+              <span>Liked Songs</span>
+            </div>
+            <div class="App__quick-link">
+              <div class="App__quick-link-featured-img">
+                <img src="image4.png" alt="neffex" width="100%" />
+              </div>
+              <span>Neffex Playlist</span>
+            </div>
+            <div class="App__quick-link">
+              <div class="App__quick-link-featured-img">
+                <img src="image3.png" alt="k/da" width="100%" />
+              </div>
+              <span>K/DA</span>
+            </div>
+            <div class="App__quick-link">
+              <div class="App__quick-link-featured-img">
+                <img src="image1.png" width="100%" />
+              </div>
+              <span>Asha Bhosle</span>
+            </div>
+            <div class="App__quick-link">
+              <div class="App__quick-link-featured-img">
+                <img src="image2.png" width="100%" />
+              </div>
+              <span>Dance/Electronic Mix</span>
+            </div>
+          </div>
+        </section>
+        <section class="App__section App__your-shows">
+          <div class="App__section-header">
+            <h3>Shows You might Like</h3>
+            <span>SEE ALL</span>
+          </div>
+          <div class="App__section-grid-container">
+            <div class="App__section-grid-item">
+              <div class="featured-image"></div>
+              <h3>Weekly Motivatio</h3>
+              <span>bBen lan Scoot</span>
+            </div>
+            <div class="App__section-grid-item">
+              <div class="featured-image"></div>
+              <h3>MEDITATION SELF</h3>
+              <span>lbp Hussain Aleen</span>
+            </div>
+            <div class="App__section-grid-item">
+              <div class="featured-image"></div>
+              <h3>Words beyond act...</h3>
+              <span>samuel scoot</span>
+            </div>
+            <div class="App__section-grid-item">
+              <div class="featured-image"></div>
+              <h3>The Alexa Show</h3>
+              <span>Adriana Tom</span>
+            </div>
+            <div class="App__section-grid-item">
+              <div class="featured-image"></div>
+              <h3>The Stories of Ma..</h3>
+              <span>Lexus</span>
+            </div>
+            <div class="App__section-grid-item">
+              <div class="featured-image"></div>
+              <h3>Motivation Daily b..</h3>
+              <span>georgina Martha</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
